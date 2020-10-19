@@ -136,12 +136,12 @@ namespace GradeBook.GradeBooks
 
             if ((studentType & StudentType.Honors) == StudentType.Honors && IsWeighted == true)
             {
-                GPA += (double)1;
+                GPA += 1;
                 return GPA;
             }
             else if ((studentType & StudentType.DualEnrolled) == StudentType.DualEnrolled && IsWeighted ==true)
             {
-                GPA += (double)1;
+                GPA += 1;
                 return GPA;
             }
             else return GPA;
